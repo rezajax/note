@@ -3,6 +3,7 @@
 ## history && select
 https://whichjdk.com/
 https://en.wikipedia.org/wiki/Java_version_history
+https://aws.amazon.com/corretto/faqs/#support_calendar
 
 
 ## oracle 
