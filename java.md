@@ -40,3 +40,8 @@ https://www.oracle.com/java/technologies/java-se-support-roadmap.html
 https://adoptium.net/support/
 https://www.azul.com/products/azul-support-roadmap/
 
+
+
+# Alternatives (Configure the default version)
+sudo update-alternatives --config java
+sudo update-alternatives --config javac
