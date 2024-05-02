@@ -28,6 +28,20 @@ echo "deb https://packages.adoptium.net/artifactory/deb $(awk -F= '/^VERSION_COD
 ```
 sudo apt install temurin-21-jdk
 
+## amazon corretto
+
+### install
+
+https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/generic-linux-install.html
+```bash
+wget -O - https://apt.corretto.aws/corretto.key | sudo gpg --dearmor -o /usr/share/keyrings/corretto-keyring.gpg && \
+echo "deb [signed-by=/usr/share/keyrings/corretto-keyring.gpg] https://apt.corretto.aws stable main" | sudo tee /etc/apt/sources.list.d/corretto.list
+
+sudo apt-get update; sudo apt-get install -y java-11-amazon-corretto-jdk
+```
+
+
+
 ## microsft 
 https://www.microsoft.com/openjdk
 
