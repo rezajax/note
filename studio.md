@@ -18,10 +18,6 @@ Unpack the .zip file you downloaded to an appropriate location for your applicat
 sudo ln -s /opt/android-studio/bin/studio.sh /usr/local/bin/studio
 ```
 
-
-## install
-
-
 ### create shortcut
 tools -> create desktop entery
 
